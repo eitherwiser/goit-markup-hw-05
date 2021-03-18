@@ -336,7 +336,8 @@ index main ==============================================================
 }
 
 .btn-modal-close:hover,
-.btn-modal-close:focus .close-icon:hover,
+.btn-modal-close:focus,
+.close-icon:hover,
 .close-icon:focus {
   border-color: var(--brand-color);
   fill: var(--brand-color);
